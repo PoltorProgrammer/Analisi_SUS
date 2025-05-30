@@ -70,6 +70,25 @@ L’informe generat (`informe_sus.html`) inclou:
 
 ---
 
+## 🖨️ Conversió a PDF (opcional)
+
+Al repositori trobaràs el fitxer `convert_html_to_pdf.js` que utilitza **Puppeteer** per convertir automàticament l’informe HTML a PDF.
+
+### Com usar-ho:
+1️⃣ Assegura’t que tens instal·lat Node.js i Puppeteer:
+```bash
+npm install puppeteer
+```
+
+2️⃣ Executa el script:
+```bash
+node convert_html_to_pdf.js
+```
+
+Aquest script buscarà automàticament el fitxer `.html` al directori i generarà un fitxer `.pdf` amb la mateixa base de nom.
+
+---
+
 ## 📦 Requeriments
 
 - Python 3.8+
