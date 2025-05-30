@@ -30,6 +30,8 @@ python main.py
 
 4️⃣ Obre l’informe generat (`informe_sus.html`) amb el navegador.
 
+[![Deploy](https://img.shields.io/badge/🔗%20Veure%20Informe-HTML-yellow)](https://poltorprogrammer.github.io/Analisi_SUS/informe_sus.html)
+
 ## 📦 Requeriments
 
 - Python 3.8+
