@@ -32,6 +32,41 @@ python main.py
 
 [![Deploy](https://img.shields.io/badge/🔗%20Veure%20Informe-HTML-yellow)](https://poltorprogrammer.github.io/Analisi_SUS/informe_sus.html)
 
+---
+
+## 📊 Què trobaràs a l’informe?
+
+L’informe generat (`informe_sus.html`) inclou:
+
+- 🎯 **Resum Executiu:**  
+  Comparació directa entre la Galeria Botànica i el Mapa Botànic amb les puntuacions mitjanes SUS, qualificacions i diferències entre eines.
+
+- 📚 **Què és el SUS?**  
+  Explicació detallada del System Usability Scale, amb context, característiques clau i interpretació de les puntuacions.
+
+- 🧮 **Càlcul detallat:**  
+  Desglossament del procés de càlcul SUS pas a pas amb exemples pràctics, perquè puguis entendre com es transforma cada resposta.
+
+- 🖼️ **Estadístiques per eina:**  
+  Puntuació mitjana, mediana, desviació típica, rang i qualificació per a cada eina (Galeria i Mapa).
+
+- ⚖️ **Anàlisi comparativa:**  
+  Gràfics radar per comparar les estadístiques clau entre les dues eines.
+
+- 👥 **Perfil demogràfic:**  
+  Gràfics de distribució per edat, familiaritat tecnològica i experiència amb recursos UAB, amb un resum numèric dels participants.
+
+- 💡 **Recomanacions personalitzades:**  
+  Accions i suggeriments basats en els resultats i el perfil dels usuaris per millorar l’experiència.
+
+- 🗄️ **Base de dades:**  
+  Enllaç directe al Google Sheet original, amb opcions per exportar les dades en JSON i CSV.
+
+- 📝 **Formulari d’enquesta:**  
+  Accés al formulari original per recollir més respostes o actualitzar les dades.
+
+---
+
 ## 📦 Requeriments
 
 - Python 3.8+
