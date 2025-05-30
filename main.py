@@ -532,11 +532,17 @@ class GeneradorInformeHTML:
                 
                 <div style="text-align: center; padding: 20px;">
                     <p style="font-size: 1.1rem; color: #34495E; margin-bottom: 15px;">
-                        Les dades analitzades provenen del següent Google Sheet:
+                        Les dades analitzades provenen de les següents Fonts:
                     </p>
-                    <a href="{url_base_dades}" target="_blank" class="btn" style="display: inline-block;">
-                        🔗 Veure Base de Dades Original
-                    </a>
+                    <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                        <a href="{url_base_dades}" target="_blank" class="btn" style="background: linear-gradient(135deg, #0F9D58, #34A853); display: inline-block;">
+                            🔗 Veure Base de Dades Original
+                        </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-ovmBzQeFW-0ZoAeZ-UtwspY84UZt4y8vBluaQiYTSYq2tA/viewform?usp=sharing&ouid=111166641628531390157"
+                            target="_blank" class="btn" style="background: linear-gradient(135deg, #673AB7, #8E24AA); display: inline-block;">
+                            📝 Obre el Formulari d’Enquesta
+                        </a>
+                    </div>
                 </div>
             </div>
             """
@@ -849,11 +855,16 @@ class GeneradorInformeHTML:
 <body>
    <div class="container">
        <div class="header">
-           <h1>📊 Informe d'Anàlisi SUS</h1>
-           <p>Galeria Botànica vs Mapa Botànic</p>
-           <p>Generat el {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
+            <h1>📊 Informe d'Anàlisi SUS</h1>
+            <p>Galeria Botànica vs Mapa Botànic</p>
+            <p>Generat el {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
+            <div style="margin-top: 15px;">
+                <a href="https://github.com/PoltorProgrammer/Analisi_SUS?tab=readme-ov-file#analitzador-sus" target="_blank" class="btn">
+                    🛠️ Veure a GitHub
+                </a>
+            </div>
        </div>
-
+       
        <!-- Resum Executiu -->
        <div class="card full-width">
            <div class="card-header">
@@ -1097,11 +1108,6 @@ class GeneradorInformeHTML:
            <button onclick="exportToJSON()" class="btn">📄 Exportar JSON</button>
            <button onclick="exportToCSV()" class="btn">📊 Exportar CSV</button>
        </div>
-       <div class="export-buttons">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-ovmBzQeFW-0ZoAeZ-UtwspY84UZt4y8vBluaQiYTSYq2tA/viewform?usp=sharing&ouid=111166641628531390157"
-                target="_blank" class="btn">
-                    📝 Obre el Formulari d’Enquesta
-            </a>
 </div>
    </div>
 
