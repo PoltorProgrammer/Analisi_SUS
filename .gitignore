@@ -1,0 +1,17 @@
+# Fitxers Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entorns virtuals
+env/
+venv/
+
+# Fitxers generats
+*.html
+*.json
+*.csv
+
+# Fitxers del sistema
+.DS_Store
+*.log
