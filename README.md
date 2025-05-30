@@ -60,7 +60,10 @@ L’informe generat (`informe_sus.html`) inclou:
   Accions i suggeriments basats en els resultats i el perfil dels usuaris per millorar l’experiència.
 
 - 🗄️ **Base de dades:**  
-  Enllaç directe al Google Sheet original, amb opcions per exportar les dades en JSON i CSV.
+  Enllaç directe als Google Sheets i Google Forms originals, amb opcions per exportar les dades en JSON i CSV.
+
+  [![Google Sheets](https://img.shields.io/badge/🔗%20Google%20Sheets-Original-darkgreen)](https://docs.google.com/spreadsheets/d/1HRiTEf8T8RSsMsaZESj56y-9GuxvvFtM8iO7qmVdFCQ/edit?usp=sharing)
+  [![Google Forms](https://img.shields.io/badge/🔗%20Google%20Forms-Original-purple)](https://docs.google.com/forms/d/e/1FAIpQLSf-ovmBzQeFW-0ZoAeZ-UtwspY84UZt4y8vBluaQiYTSYq2tA/viewform?usp=sharing)
 
 - 📝 **Formulari d’enquesta:**  
   Accés al formulari original per recollir més respostes o actualitzar les dades.
