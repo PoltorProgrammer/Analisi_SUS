@@ -30,14 +30,6 @@ python main.py
 
 4️⃣ Obre l’informe generat (`informe_sus.html`) amb el navegador.
 
----
-
-## 🌐 🔗 Veure l’informe online
-
-👉 [**Fes clic aquí per veure l’informe SUS publicat a GitHub Pages**](https://poltorprogrammer.github.io/Analisi_SUS/informe_sus.html)
-
----
-
 ## 📦 Requeriments
 
 - Python 3.8+
