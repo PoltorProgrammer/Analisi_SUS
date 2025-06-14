@@ -108,6 +108,6 @@ Aquest projecte està sota llicència MIT. Consulta el fitxer `LICENSE` per a m�
 
 Tomás González Bartomeu
 
-Amb la tutoria de Ramon Pérez Obiol
+Amb la tutoria de **** **** ****
 
 Universitat Autònoma de Barcelona
